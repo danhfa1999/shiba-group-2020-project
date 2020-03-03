@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Shiba</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quattrocento:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-5.12.1-web/css/all.min.css">
+  </head>
+  <body>
+    <div class="app">
+      <div class="grid">
+        <div class="header">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">Group Shiba</li>
+              <li class="header__navbar-item">More</li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-link">Help</a>
+              </li>
+            </ul>
+            <div class = "header__navbar-logo"><img src="./asset/pictures/naruto-symbol-png-2.png" alt="Logo" width="75" height="75"></img></div>
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-link">Notifi</a>
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-link">Sign In</a>
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-link">Account</a>
+              </li>
+            </ul>
+          </nav>
+          <hr>
+        </div>
+        </div>
+        <div class="body__navbar-avatar">
+          <span class = "body__navbar-content">Thành Viên</span>
+          <nav class="body__navbar-listuser">
+            <div class="body__navbar-infor">
+            <img class = "body__navbar-user"src="./asset/pictures/shiba.png" alt="" height="100" width="100">
+            <hr>
+              <h3 class="body__navbar-textName">Danh</h3>
+            </div>
+            <div class="body__navbar-infor">
+              <img class = "body__navbar-user"src="./asset/pictures/shiba.png" alt="" height="100" width="100">
+              <hr>  
+              <h3 class="body__navbar-textName">Tâm</h3>
+              </div>
+              <div class="body__navbar-infor">
+                <img class = "body__navbar-user"src="./asset/pictures/shiba.png" alt="" height="100" width="100">
+                <hr>  
+                <h3 class="body__navbar-textName">Nhân</h3>
+                </div>
+                <div class="body__navbar-infor">
+                  <img class = "body__navbar-user"src="./asset/pictures/shiba.png" alt="" height="100" width="100">
+                  <hr>  
+                  <h3 class="body__navbar-textName">Thiên</h3>
+                  </div>
+          </nav>
+        </div>
+
+        <div class="body__navbar-chat" width="200" height="200">
+          <div id="message-container">
+            <h2 style="text-align: center;display: block; ">Sũa lên . . .</h2>
+            <form id = "send-container">
+              <input type="text" id="message-input" style = "font-size: 30px;"> 
+              <button type="submit" id="send-button">Gâu...</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
